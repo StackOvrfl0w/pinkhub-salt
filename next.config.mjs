@@ -1,12 +1,12 @@
 // next.config.mjs
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  // This is the correct flag for your version
   reactCompiler: true, 
   output: 'export',
+  basePath: '/pinkhub-salt',
+  assetPrefix: '/pinkhub-salt/',
   images: {
     unoptimized: true,
-    // This part is correct and we will keep it
     remotePatterns: [
       {
         protocol: "https",
