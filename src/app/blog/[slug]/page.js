@@ -1,9 +1,30 @@
+// src/app/blog/[slug]/page.js
 import PageBanner from "@/components/PageBanner";
 import blogs from "@/data/blogs.json";
 import Image from "next/image";
 
-export default function BlogPost({ params }) {
-  const blog = blogs.find((b) => b.id === params.slug);
+export function generateStaticParams() {
+  return blogs.map((post) => ({
+    slug: post.id || post.slug, 
+  }));
+}
+
+export async function generateMetadata({ params }) {
+  const { slug } = await params;
+  const blog = blogs.find((b) => b.id === slug || b.slug === slug);
+
+  if (!blog) {
+    return { title: "Blog Not Found" };
+  }
+
+  return {
+    title: `${blog.name} | Raqeeb Salt Blog`,
+  };
+}
+
+export default async function BlogPost({ params }) {
+  const { slug } = await params;
+  const blog = blogs.find((b) => b.id === slug || b.slug === slug);
 
   if (!blog) {
     return <h1 className="text-center py-20 text-2xl">Blog not found</h1>;
@@ -11,7 +32,8 @@ export default function BlogPost({ params }) {
 
   const breadcrumbs = [
     { name: "Home", href: "/" },
-    { name: "Blog", href: "" }, // Current page
+    { name: "Blog", href: "/blog" },
+    { name: blog.name, href: "" }, 
   ];
 
   return (
@@ -23,7 +45,6 @@ export default function BlogPost({ params }) {
         imageUrl="/images/himalayan-salt-bg.jpg"
       />
       <div className="max-w-4xl mx-auto px-5 py-10">
-        {/* 3. Use the new PageBanner component */}
         <div className="relative w-full h-80 mb-8 rounded-lg overflow-hidden">
           <Image
             src={blog.image}

@@ -3,8 +3,9 @@
 const nextConfig = {
   // This is the correct flag for your version
   reactCompiler: true, 
-
+  output: 'export',
   images: {
+    unoptimized: true,
     // This part is correct and we will keep it
     remotePatterns: [
       {
