@@ -40,8 +40,8 @@ export async function generateMetadata({ params }) {
   }
 
   return {
-    title: `${categoryName} | Raqeeb Salt Products`,
-    description: `Explore Raqeeb Salt's premium ${categoryName} products. Wholesale and private label available.`,
+    title: `${categoryName} | Pak Pink Products`,
+    description: `Explore Pak Pink's premium ${categoryName} products. Wholesale and private label available.`,
   };
 }
 

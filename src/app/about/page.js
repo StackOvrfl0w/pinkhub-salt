@@ -7,7 +7,7 @@ import DividerSection from "@/components/DividerSection";
 import ImageGallery from "@/components/ImageGallery";
 
 export const metadata = {
-  title: "About Us | Raqeeb Salt",
+  title: "About Us | Pak Pink",
   description:
     "Learn about our heritage, our factory, and our commitment to pure Himalayan Pink Salt.",
 };
@@ -42,7 +42,7 @@ export default function AboutPage() {
   return (
     <div>
       <PageBanner
-        title="About Raqeeb Salt"
+        title="About Pak Pink"
         subtitle="From the heart of the Himalayas to your home. We are dedicated to delivering the purest salt on earth."
         breadcrumbs={breadcrumbs}
         imageUrl="/images/himalayan-salt-bg.jpg"

@@ -15,7 +15,7 @@ import "swiper/css/pagination";
 const slides = [
   {
     type: "video",
-    src: "/videos/hero-video.mp4", // Make sure this video exists in /public/videos/
+    src: "/videos/Video-cropped.mp4", // Make sure this video exists in /public/videos/
     title: "Premium Himalayan Salt Exporter",
     subtext:
       "Sourced from the heart of Pakistan for global wholesale & private label.",

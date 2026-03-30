@@ -18,7 +18,7 @@ export async function generateMetadata({ params }) {
   }
 
   return {
-    title: `${blog.name} | Raqeeb Salt Blog`,
+    title: `${blog.name} | Pak Pink Blog`,
   };
 }
 

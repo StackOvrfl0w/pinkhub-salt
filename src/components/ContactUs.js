@@ -89,7 +89,7 @@ export default function ContactUs() {
 
             <div className="space-y-6">
               <a
-                href="https://wa.me/923000000000"
+                href="https://wa.me/923211117621"
                 className="flex items-start group"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -101,12 +101,12 @@ export default function ContactUs() {
                   <h3 className="text-lg font-semibold text-gray-800 group-hover:text-primary transition-colors">
                     Call Us
                   </h3>
-                  <p className="text-gray-600">+92 300 0000000</p>
+                  <p className="text-gray-600">+92 321 1117621</p>
                 </div>
               </a>
 
               <a
-                href="mailto:sales@raqeebsalt.com"
+                href="mailto:info@pakpink.com"
                 className="flex items-start group"
               >
                 <div className="bg-primary/10 p-3 rounded-full mr-4">
@@ -116,7 +116,7 @@ export default function ContactUs() {
                   <h3 className="text-lg font-semibold text-gray-800 group-hover:text-primary transition-colors">
                     Email Us
                   </h3>
-                  <p className="text-gray-600">sales@raqeebsalt.com</p>
+                  <p className="text-gray-600">info@pakpink.com</p>
                 </div>
               </a>
 

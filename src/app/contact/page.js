@@ -3,9 +3,9 @@ import PageBanner from "@/components/PageBanner";
 import ContactUs from "@/components/ContactUs";
 
 export const metadata = {
-  title: "Contact Us | Raqeeb Salt",
+  title: "Contact Us | Pak Pink",
   description:
-    "Get in touch with Raqeeb Salt for wholesale inquiries, private labeling, and more.",
+    "Get in touch with Pak Pink for wholesale inquiries, private labeling, and more.",
 };
 
 export default function ContactPage() {

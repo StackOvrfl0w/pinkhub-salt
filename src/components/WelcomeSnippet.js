@@ -74,7 +74,7 @@ const WelcomeSnippet = ({ showButton = true }) => {
               viewport={{ once: true }}
               className="text-gray-600 leading-relaxed mb-6"
             >
-              Raqeeb Salt stands as a premier manufacturer and exporter based in
+              Pak Pink stands as a premier manufacturer and exporter based in
               Pakistan, dedicated to supplying the finest quality Himalayan salt
               products. We cater to B2B clients, wholesalers, and private label
               brands globally, ensuring authenticity and excellence from mine to
@@ -121,7 +121,7 @@ const WelcomeSnippet = ({ showButton = true }) => {
               <div className="rounded-lg overflow-hidden border border-gray-200">
                 <Image
                   src="/images/about-us-person.webp"
-                  alt="Raqeeb Salt Factory or Himalayan Salt Blocks"
+                  alt="Pak Pink Factory or Himalayan Salt Blocks"
                   width={600}
                   height={450}
                   className="w-full h-auto object-cover"

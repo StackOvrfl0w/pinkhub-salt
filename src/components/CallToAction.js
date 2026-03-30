@@ -39,7 +39,7 @@ const CallToAction = () => {
           transition={{ duration: 0.6, delay: 0.2 }}
           viewport={{ once: true }}
         >
-          Partner with Raqeeb Salt for premium quality, consistent supply, and
+          Partner with Pak Pink for premium quality, consistent supply, and
           dedicated B2B services including private labeling.
         </motion.p>
         <motion.div

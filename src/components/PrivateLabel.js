@@ -33,7 +33,7 @@ export default function PrivateLabel({ imagePosition = "left" }) {
             <div className="relative rounded-2xl overflow-hidden shadow-2xl border-4 border-gray-100">
               <Image
                 src="/images/private-label.webp"
-                alt="Raqeeb Salt Private Label Packaging"
+                alt="Pak Pink Private Label Packaging"
                 width={800}
                 height={600}
                 className="w-full h-auto object-cover transform hover:scale-105 transition-transform duration-700"

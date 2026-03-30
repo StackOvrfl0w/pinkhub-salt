@@ -12,7 +12,7 @@ export default function WhatsAppButton() {
 
   // 2. Default message when they click
   const defaultMessage =
-    "Hi, I visited your website and I'm interested in Raqeeb Salt products.";
+    "Hi, I visited your website and I'm interested in Pak Pink products.";
 
   return (
     <motion.div

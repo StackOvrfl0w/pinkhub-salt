@@ -6,7 +6,7 @@ import Footer from "../components/Footer"; // Import the Footer
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Himalayan Salt - Manufacturer & Exporter",
+  title: "Pak Pink - Best Salt Manufacturer, Exporter & Supplier",
   description: "Premium Himalayan Pink Salt products for B2B and wholesale.",
 };
 

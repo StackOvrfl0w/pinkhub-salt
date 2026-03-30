@@ -29,7 +29,7 @@ export async function generateMetadata({ params }) {
   }
   
   return {
-    title: `${product.name} | Raqeeb Salt`,
+    title: `${product.name} | Pak Pink`,
     description: product.description.substring(0, 160).replace(/<[^>]*>?/gm, ""),
   };
 }

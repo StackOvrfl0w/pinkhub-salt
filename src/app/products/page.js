@@ -2,9 +2,9 @@ import allProducts from "@/data/products.json";
 import CategoriesSection from "./CategoriesSection";
 
 export const metadata = {
-  title: "Our Product Categories | Raqeeb Salt",
+  title: "Our Product Categories | Pak Pink",
   description:
-    "Explore all product categories offered by Raqeeb Salt, including edible salt, salt lamps, wellness products, and more.",
+    "Explore all product categories offered by Pak Pink, including edible salt, salt lamps, wellness products, and more.",
 };
 
 // Extract unique categories

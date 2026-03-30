@@ -5,9 +5,9 @@ import CallToAction from "@/components/CallToAction";
 import DividerSection from "@/components/DividerSection";
 
 export const metadata = {
-  title: "Private Label & OEM Services | Raqeeb Salt",
+  title: "Private Label & OEM Services | Pak Pink",
   description:
-    "Launch your own Himalayan Pink Salt brand with Raqeeb Salt’s premium private label and OEM services.",
+    "Launch your own Himalayan Pink Salt brand with Pak Pink’s premium private label and OEM services.",
 };
 
 export default function PrivateLabelPage() {

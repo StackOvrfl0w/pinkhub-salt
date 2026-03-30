@@ -8,6 +8,7 @@ import {
   Phone,
   Mail,
 } from "lucide-react";
+import Image from "next/image";
 
 const Footer = () => {
   const quickLinks = [
@@ -43,8 +44,15 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
           {/* Column 1: Logo & About */}
           <div className="space-y-4">
-            <Link href="/" className="text-2xl font-bold text-white">
-              Raqeeb<span className="text-primary">Salt</span>
+            <Link href="/" className="flex items-center">
+              <Image
+                src="/images/logo/pakpinklogo.png"
+                alt="Logo Footer"
+                width={435}
+                height={362}
+                className="w-48 sm:w-36 h-auto object-contain" 
+                priority
+              />
             </Link>
             <p className="text-sm leading-relaxed">
               Leading manufacturer and exporter of premium Himalayan Salt
@@ -134,12 +142,12 @@ const Footer = () => {
               <li className="flex items-center">
                 <Mail size={16} className="mr-2 text-primary flex-shrink-0" />
                 <a
-                  href="mailto:raqeebsiraj12345@gmail.com"
+                  href="mailto:info@pakpink.com"
                   className="hover:text-primary transition-colors break-all"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  raqeebsiraj12345@gmail.com
+                  info@pakpink.com
                 </a>
               </li>
             </ul>
@@ -150,7 +158,7 @@ const Footer = () => {
 
         {/* Bottom Bar */}
         <div className="border-t border-gray-700 pt-8 text-center text-sm">
-          <p>&copy; {currentYear} Raqeeb Salt. All Rights Reserved.</p>
+          <p>&copy; {currentYear} Pak Pink. All Rights Reserved.</p>
           {/* Optional: Links to Privacy Policy etc. */}
           {/* <div className="mt-2">
             <Link href="/privacy-policy" className="hover:text-primary mx-2">Privacy Policy</Link> |

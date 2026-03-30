@@ -5,7 +5,7 @@ import ContactPage from "@/components/ContactUs";
 import DividerSection from "@/components/DividerSection";
 
 export const metadata = {
-  title: "FAQ | Raqeeb Salt",
+  title: "FAQ | Pak Pink",
   description:
     "Common questions about shipping, wholesale orders, private labeling, and payment methods.",
 };

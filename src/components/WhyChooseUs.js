@@ -73,7 +73,7 @@ export default function WhyChooseUs() {
           </h2>
           <span className="block w-16 h-1 bg-primary mx-auto mb-4"></span>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Discover why businesses worldwide trust Raqeeb Salt as their
+            Discover why businesses worldwide trust Pak Pink as their
             preferred Himalayan salt supplier.
           </p>
         </motion.div>
