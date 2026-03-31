@@ -43,7 +43,7 @@ const WelcomeSnippet = ({ showButton = true }) => {
               viewport={{ once: true }}
               className="text-3xl lg:text-4xl font-bold text-gray-800 mb-3"
             >
-              Welcome to Salt
+              Welcome to Mine
             </motion.h2>
 
             {/* Small HR */}
@@ -120,7 +120,7 @@ const WelcomeSnippet = ({ showButton = true }) => {
               {/* Image Container */}
               <div className="rounded-lg overflow-hidden border border-gray-200">
                 <Image
-                  src="/images/about-us-person.webp"
+                  src="/images/about-us-sec.webp"
                   alt="Pak Pink Factory or Himalayan Salt Blocks"
                   width={600}
                   height={450}
