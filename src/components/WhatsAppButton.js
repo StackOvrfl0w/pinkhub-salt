@@ -7,8 +7,8 @@ import { motion } from "framer-motion";
 export default function WhatsAppButton() {
   // CONFIGURATION
   // 1. Enter your phone number in international format (No '+' or dashes)
-  // Example for Pakistan: 923001234567
-  const phoneNumber = "923000000000";
+  // Example for Pakistan: +923211117621
+  const phoneNumber = "+923211117621";
 
   // 2. Default message when they click
   const defaultMessage =
